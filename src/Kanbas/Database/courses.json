@@ -1,0 +1,15 @@
+[ { "_id": "CS1234", "name": "React JS", "number": "CS1234.11550.202410", "startDate": "2023-01-10",
+    "endDate": "2023-05-15", "image": "/images/course.jpg", "semester": "Spring Semester 2024" },
+  { "_id": "CS5678", "name": "Web Development", "number": "CS5678.11550.2023554", "startDate": "2023-01-10",
+    "endDate": "2023-05-15", "image": "/images/course.jpg", "semester": "Spring Semester 2024" },
+  { "_id": "CS9012", "name": "Database Management", "number": "CS9012.11550.2023554", "startDate": "2023-01-10",
+    "endDate": "2023-05-15", "image": "/images/course.jpg", "semester": "Fall Semester 2023"},
+    { "_id": "CS3456", "name": "Data Structures", "number": "CS3456.11550.2023554", "startDate": "2023-01-10",
+    "endDate": "2023-05-15", "image": "/images/course.jpg", "semester": "Fall Semester 2023"},
+    { "_id": "CS7890", "name": "Software Engineering", "number": "CS7890.11550.2023554", "startDate": "2023-01-10",
+    "endDate": "2023-05-15", "image": "/images/course.jpg", "semester": "Summer Semester 2023"},
+    { "_id": "CS1111", "name": "Machine Learning", "number": "CS1111.11550.2023554", "startDate": "2023-01-10",
+    "endDate": "2023-05-15", "image": "/images/course.jpg", "semester": "Spring Semester 2023"},
+    { "_id": "CS2222", "name": "Cybersecurity", "number": "CS2222.11550.2023554", "startDate": "2023-01-10",
+    "endDate": "2023-05-15", "image": "/images/course.jpg", "semester": "Spring Semester 2023"}
+]

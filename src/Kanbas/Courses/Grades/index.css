@@ -1,0 +1,20 @@
+.link {
+    color: red;
+    text-decoration: none;
+}
+
+.menu-icon {
+    color: red;
+}
+
+.course-name,
+.page-name {
+    font-size: large;
+}
+
+.col-2.cnav {
+    padding-left: 25px;
+}
+.custom-col-1 {
+    width: 6%;
+}

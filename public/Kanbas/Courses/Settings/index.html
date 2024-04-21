@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Settings Index</title>
+</head>
+
+<body>
+    <button><a href="/Kanbas/Courses/Settings/CourseDetails/screen.html" style="text-decoration: none; color: black;">Course Details</a></button>
+    <button><a href="#" style="text-decoration: none; color: black;">Sections</a></button>
+    <button><a href="/Kanbas/Courses/Settings/CourseNavigation/screen.html" style="text-decoration: none; color: black;">Navigation</a></button>
+    <button><a href="#" style="text-decoration: none; color: black;">Apps</a></button>
+    <button><a href="#" style="text-decoration: none; color: black;">Feature Options</a></button>
+    <button><a href="#" style="text-decoration: none; color: black;">Integrations</a></button>
+    <h2>Course Details</h2>
+    <form action="">
+        <label for="wd-settings-image-label">Image</label>
+        <button>Choose Image</button><br><br>
+
+        <label for="wd-settings-name-label"><b>Name:</b></label>
+        <label for="wd-settings-name">CS4550 12631 Web Development SEC 01 Fall 2023 [BOS-1-TR]</label><br><br>
+
+        <label for="wd-settings-coursecode-label"><b>Course Code:</b></label>
+        <label for="wd-settings-coursecode">CS4550.12631.202410</label><br><br>
+
+        <label for="wd-settings-blueprint-label"><b>Blueprint Course:</b></label>
+        <label for="wd-settings-blueprint">No</label><br><br>
+
+        <label for="wd-settings-template"><b>Course Template:</b></label>
+        <input type="checkbox" id="wd-settings-template"> <label for="wd-settings-template">Enable course as a Course
+            Template</label><br><br>
+
+
+        <label for="wd-settings-timezone"><b>Time Zone:</b></label>
+        <select name="wd-settings-timezone" id="wd-settings-timezone">
+            <option value="Eastern">Eastern Time (US & Canada)(-05:00/-4:00)</option>
+            <option value="Dummy">Dummy</option>
+        </select><br><br>
+
+        <label for="wd-settings-sisid-label"><b>SIS ID:</b></label>
+        <label for="wd-settings-sisid">CS450.12631.202410</label><br><br>
+
+        <label for="wd-settings-subaccount-label"><b>Subaccount:</b></label>
+        <label for="wd-settings-subaccount"><a href="#" style="color: red; text-decoration: none;">CS
+                Undergrad</a></label><br><br>
+
+        <label for="wd-settings-term-label"><b>Term:</b></label>
+        <label for="wd-settings-term">202410_1 Fall 2023 Semester Full Term</label><br><br>
+
+        <label for="wd-settings-participation"><b>Participation:</b></label>
+        <select id="wd-settings-participation">
+            <option value="Term">Term</option>
+            <option value="Dummy">Dummy</option>
+        </select><br><br>
+
+        <p style="margin-top: 0;">Course participation is limited to <b>term</b> start and end dates.</p>
+        <h4>Start</h4>
+        <input type="date" id="wd-settings-startdate">
+        <h4>End</h4>
+        <input type="date" id="wd-settings-enddate"><br><br>
+        <input type="checkbox" id="wd-settings-checkbox-restrict-startdate"><label
+            for="wd-settings-checkbox-restrict-startdate">Restrict students from viewing course before start
+            date</label><br>
+        <input type="checkbox" id="wd-settings-checkbox-restrict-enddate"><label
+            for="wd-settings-checkbox-restrict-enddate">Restrict students from viewing course after term end
+            date</label><br><br>
+
+        <label for="wd-settings-duetime"><b>Course Start Date:</b></label>
+        <select id="wd-settings-duetime">
+            <option value="Default">Account default (11:59pm)</option>
+            <option value="Dummy">Dummy</option>
+        </select><br>
+        <p>This influences the user interface for setting due dates. It does not change the time due for any existing
+            assignments</p>
+
+        <label for="wd-settings-language"><b>Language:</b></label>
+        <select id="wd-settings-language">
+            <option value="Default"> Not set (user-configurable, defaults to English)</option>
+            <option value="Dummy">Dummy</option>
+        </select><br>
+        <p>This will override any user/system languate peferences. This is only recommended for foreign language courses
+        </p>
+
+        <label for="wd-settings-storage-label"><b>File Storage:</b></label>
+        <label for="wd-settings-storage">1000 megabytes</label><br><br>
+
+        <label for="wd-settings-largecourse"><b>Large Course:</b></label>
+        <input type="checkbox" id="wd-settings-largecourse"> <label for="wd-settings-largecourse">Launch SpeedGrader
+            Filtered by Student Group</label><br><br>
+
+        <label for="wd-settings-gradingscheme"><b>Grading Scheme:</b></label>
+        <input type="checkbox" id="wd-settings-gradingscheme"> <label for="wd-settings-gradingscheme">Enable Course
+            Grading scheme</label><br><br>
+
+        <label for="wd-settings-license"><b>License:</b></label>
+        <select id="wd-settings-license">
+            <option value="Private"> Private (Copyrighted)</option>
+            <option value="Dummy">Dummy</option>
+        </select><br><br>
+
+        <label for="wd-settings-filecopyright"><b>File Copyright:</b></label>
+        <input type="checkbox" id="wd-settings-filecopyright"> <label for="wd-settings-filecopyright">Copyright and
+            license information must be provided for files before they are published.</label><br><br>
+
+        <label for="wd-settings-visibility"><b>Visibility:</b></label>
+        <p style="margin-top: 0;">If you need to make your course public please contact your administrator/support.</p>
+        <select id="wd-settings-visibility">
+            <option value="Course">Course</option>
+            <option value="Dummy">Dummy</option>
+        </select><br><br>
+        <input type="checkbox" id="wd-settings-include-course-public"><label
+            for="wd-settings-include-course-public">Include this course in the public course index</label><br><br>
+
+        <label for="wd-settings-format"><b>Format:</b></label>
+        <select id="wd-settings-format">
+            <option value="OnCampus">On-Campus</option>
+            <option value="Dummy">Dummy</option>
+        </select><br><br>
+
+        <label for="wd-settings-masterypath"><b>Mastery Paths:</b></label>
+        <input type="checkbox" id="wd-settings-masterypath"> <label for="wd-settings-masterypath">Enable individual
+            learning paths for students based on assessment</label><br><br>
+
+        <label for="wd-settings-description"><b>Description:</b></label>
+        <textarea id="wd-settings-description" cols="30" rows="5"></textarea><br><br>
+
+        <a href="#" style="color: red;">more options</a>
+        <hr><br><br>
+        <button style="background-color: red; color: white;">
+            Update Course Details
+        </button>
+
+
+    </form>
+</body>
+
+</html>

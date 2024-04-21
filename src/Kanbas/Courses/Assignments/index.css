@@ -1,0 +1,72 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.link {
+    color: red;
+    text-decoration: none;
+}
+
+.assignment-title {
+    font-weight: bold;
+}
+
+.assignment-item {
+    font-weight: bold;
+}
+
+.assignment-item-icon {
+    color: green;
+}
+
+.list-group-item.assignment-border {
+    border-left: 5px solid green;
+}
+
+.menu-icon {
+    color: red;
+}
+
+.course-name,
+.page-name {
+    font-size: large;
+}
+
+.assignment-link {
+    color: black;
+    text-decoration: none;
+}
+
+.check-icon {
+    color: green;
+}
+
+.col-2.cnav {
+    padding-left: 25px;
+}
+
+.list-group.square-list-group {
+    border-radius: 0;
+}
+
+.assign-add-btn {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+.custom-col-1 {
+    width: 6%;
+}
+
+.list-group-item-parent{
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.list-group-item-child{
+    padding: 10px;
+    border-left: 5px solid green;
+}
+
+.list-group-item {
+    border-radius: 0 !important;
+}

@@ -1,0 +1,38 @@
+.wd-navigation {
+    background-color: white;
+    list-style: none;
+    padding: 0px;
+    width: 125px;
+    margin: 0px;
+}
+
+.wd-navigation li {
+    padding-left: 2px;
+    margin-bottom: 4px;
+    margin-top: 4px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.wd-navigation li.wd-active {
+    border-left: 2px solid black;
+}
+
+.wd-navigation li.wd-active a {
+    color: black;
+}
+
+.wd-navigation a {
+    color: red;
+    text-decoration: none;
+}
+
+.wd-navigation li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.wd-navigation li .fa-eye-slash {
+    margin-left: auto;
+}

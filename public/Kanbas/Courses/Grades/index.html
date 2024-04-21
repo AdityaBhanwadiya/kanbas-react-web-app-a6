@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid black;
+        }
+    </style>
+    <link rel="stylesheet" href="/libs/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="/libs/font-awesome/css/font-awesome.min.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container py-4">
+        <div class="container d-flex justify-content-end">
+            <button class="btn btn-secondary m-2"><i class="fa fa-upload"></i> Import</button>
+            <button class="btn btn-secondary m-2"><i class="fa fa-download"></i> Export</button>
+            <button class="btn btn-secondary m-2"><i class="fa fa-cog"></i></button>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-3">
+                    <label for="studentName" class="form-label">Student Names</label>
+                    <div class="d-flex justify-content-between">
+                        <i class="fa fa-search fa-lg mt-2"></i>
+                        <input type="text" class="form-control" id="studentName" placeholder="Search Students">
+                    </div>
+                </div>
+                <div class="col-3">
+                    <label for="assignmentName" class="form-label">Assignment Name</label>
+                    <div class="d-flex justify-content-between">
+                        <i class="fa fa-search fa-lg mt-2"></i>
+                        <input type="text" class="form-control mx-2" id="assignmentName" placeholder="Search Assingments">
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <br>
+        <button class="btn btn-secondary"><i class="fa fa-filter"></i>Apply Filters</button><br><br>
+        <div class="table-responsive">
+            <table class="table table-striped table-sm table-bordered table-hover">
+                <thead>
+                    <tr>
+                        <td><b>Student Name</b></td>
+                        <td><b>A1 SETUP <br>Out of 100</b></td>
+                        <td><b>A2 HTML <br>Out of 100</b></td>
+                        <td><b>A3 CSS <br>Out of 100</b></td>
+                        <td><b>A4 BOOTSTRAP <br>Out of 100</b></td>
+                        <td><b>A5 JAVASCRIPT <br>Out of 100</b></td>
+                        <td><b>A6 REACT <br>Out of 100</b></td>
+                        <td><b>A7 REDUX <br>Out of 100</b></td>
+                        <td><b>A8 NODE <br>Out of 100</b></td>
+                        <td><b>A9 MONGO <br>Out of 100</b></td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Alice Wonderland</td>
+                        <td>98</td>
+                        <td>89</td>
+                        <td>87</td>
+                        <td>90</td>
+                        <td>89</td>
+                        <td>94</td>
+                        <td>88</td>
+                        <td>87</td>
+                        <td>100</td>
+                    </tr>
+                    <tr>
+                        <td>Princes Leia</td>
+                        <td>98</td>
+                        <td>80</td>
+                        <td>87</td>
+                        <td>86</td>
+                        <td>100</td>
+                        <td>94</td>
+                        <td><input type="text" id="marks" value="85"></td>
+                        <td>84</td>
+                        <td>92</td>
+                    </tr>
+                    <tr>
+                        <td>Luke Skywalker</td>
+                        <td><input type="text" id="marks" value="99"></td>
+                        <td>88</td>
+                        <td>97</td>
+                        <td>82</td>
+                        <td>96</td>
+                        <td>93</td>
+                        <td>95</td>
+                        <td>100</td>
+                        <td>93</td>
+                    </tr>
+                    <tr>
+                        <td>Han Solo</td>
+                        <td>83</td>
+                        <td>99</td>
+                        <td>94</td>
+                        <td>98</td>
+                        <td>86</td>
+                        <td>85</td>
+                        <td><input type="text" id="marks" value="86"></td>
+                        <td>80</td>
+                        <td>84</td>
+                    </tr>
+                    <tr>
+                        <td>Lando Calresian</td>
+                        <td>83</td>
+                        <td><input type="text" id="marks" value="92"></td>
+                        <td>80</td>
+                        <td>80</td>
+                        <td>92</td>
+                        <td>92</td>
+                        <td>94</td>
+                        <td>87</td>
+                        <td>95</td>
+                    </tr>
+                    <tr>
+                        <td>Boba Fet</td>
+                        <td>85</td>
+                        <td>89</td>
+                        <td>94</td>
+                        <td>83</td>
+                        <td>83</td>
+                        <td>84</td>
+                        <td>91</td>
+                        <td>87</td>
+                        <td>96</td>
+                    </tr>
+                    <tr>
+                        <td>Darth Vader</td>
+                        <td>81</td>
+                        <td>81</td>
+                        <td><input type="text" id="marks" value="96"></td>
+                        <td>80</td>
+                        <td>89</td>
+                        <td>88</td>
+                        <td>82</td>
+                        <td>80</td>
+                        <td>82</td>
+                    </tr>
+                    <tr>
+                        <td>Obi-Wan Kenobi</td>
+                        <td><input type="text" id="marks" value="85"></td>
+                        <td>99</td>
+                        <td>87</td>
+                        <td>82</td>
+                        <td>88</td>
+                        <td>83</td>
+                        <td>88</td>
+                        <td>92</td>
+                        <td>80</td>
+                    </tr>
+                    <tr>
+                        <td>R2-D2</td>
+                        <td>81</td>
+                        <td><input type="text" id="marks" value="92"></td>
+                        <td><input type="text" id="marks" value="82"></td>
+                        <td>86</td>
+                        <td>83</td>
+                        <td><input type="text" id="marks" value="84"></td>
+                        <td>98</td>
+                        <td>85</td>
+                        <td>96</td>
+                    </tr>
+                    <tr>
+                        <td>C-3PO</td>
+                        <td>94</td>
+                        <td>98</td>
+                        <td>83</td>
+                        <td>83</td>
+                        <td>100</td>
+                        <td>96</td>
+                        <td>96</td>
+                        <td>85</td>
+                        <td>87</td>
+                    </tr>
+                    <tr>
+                        <td>Yoda</td>
+                        <td>80</td>
+                        <td>89</td>
+                        <td>99</td>
+                        <td>89</td>
+                        <td>96</td>
+                        <td>85</td>
+                        <td>96</td>
+                        <td>92</td>
+                        <td>85</td>
+                    </tr>
+                    <tr>
+                        <td>Admiral Ackbar</td>
+                        <td>82</td>
+                        <td>88</td>
+                        <td>95</td>
+                        <td>100</td>
+                        <td><input type="text" id="marks" value="93"></td>
+                        <td>98</td>
+                        <td>85</td>
+                        <td>87</td>
+                        <td>99</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+       
+    </div>
+
+</body>
+</html>

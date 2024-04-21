@@ -1,0 +1,15 @@
+.assignment-link{
+    text-decoration: none;
+    color: darkslategray;
+    font-weight: bold;
+}
+
+.assingment-pane .fa-file{
+    color: green;
+    padding: 2px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.assingment-pane .fa-ellipsis-v{
+    padding: 1px;
+}
